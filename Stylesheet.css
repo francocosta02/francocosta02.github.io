@@ -1,0 +1,146 @@
+.banner {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(211, 211, 211, 0),
+        rgba(0, 0, 0, 0.83)
+      ), url("img/banner.jpg");
+      
+        background-position: center;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items:end;
+        
+}
+
+.banner h1 {
+
+    text-align: center;
+    color: #fff;
+
+
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #dbdbdb;
+}
+
+.tarjeta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: none;
+    height:auto;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+    transition: ease-in-out;
+    transition-duration: 100ms;
+    background-color: #fff;
+    min-width: 800px;
+
+}
+
+.tarjeta:hover {
+
+    transition: ease-in-out;
+    transition-duration: 100ms;
+    transform: scale(1.005);
+    
+
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 148px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.imagen {
+    width: 40%;
+}
+.titulo-tarjeta {
+    width: 50%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    max-height: 148px;
+
+}
+.titulo-tarjeta h1{
+    margin-bottom: none;
+    
+    
+}
+
+.titulo-tarjeta p{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin: none;
+
+}
+
+
+.boton {
+    width: 8%;
+    background-color: rgb(14, 168, 168);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;    
+    transition: ease-in;
+    transition-duration: 100ms;    
+    max-height: 148px;
+    text-decoration: none;
+}
+
+
+.boton a:active, .boton a:visited, .boton a:link{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.boton:hover {
+    width: 8%;
+    background-color: rgb(9, 92, 92);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    transition: ease-in;
+    transition-duration: 100ms;    
+}
+
+.noticia {
+
+    background-color: #fff;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+
+}
+
+.parrafo {
+
+    width: 1024px;
+    text-align: justify;
+
+}
+.imgnoticia {
+
+    width: 800px;
+}
